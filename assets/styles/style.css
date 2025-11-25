@@ -1,1 +1,86 @@
 @import url(./reset.css);
+@import url(./font.css);
+body{
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+}
+.container{
+    background:url("../images/hero-bg.jpg") #000 no-repeat center/cover ;
+    max-width: 100%;
+    height: calc(100vh + 80px);
+}
+.header{
+    height: 60px;
+    padding: 10px;
+}
+.nav_item{
+    display: flex;
+    gap: 40px;
+    justify-content:center;
+    align-items: center;
+    padding: 10px;
+}
+.link{
+    font-weight: 500;
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+    transition: .3s;
+}
+.link > a:hover{
+ color: #090202;
+}
+.line{
+    height: 1px;
+   position: relative;
+     border: 1px solid #a1a1a1;
+}
+.line::after{
+    content: "";
+    display: inline-block;
+    position: absolute;
+   
+}
+.hero{
+    height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items:center;
+    
+}
+.hero_wrapper{
+    padding: 20px;
+    text-align: center;
+}
+.hero_text{
+    max-width: 175px;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    color: #fff;
+}
+.hero_title{
+    max-width: 829px;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 134%;
+    text-align: center;
+    color: #fff;
+    margin: 10px;
+}
+.hero_btn{
+    width: 200px;
+    padding: 8px;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    color: #fff;
+    border-radius: 30px;
+    box-shadow: 0 0 10px 0 rgba(111, 111, 111, 0.25);
+    background-color: rgb(60, 60, 240) ;
+    cursor: pointer;
+    transition: .3s;
+}
+.hero_btn:hover{
+    background-color: #2e1c76;
+    color: #000;
+}
