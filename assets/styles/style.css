@@ -123,9 +123,12 @@ body{
 .card_wrapper{
     display: flex;
     gap: 27px;
+    flex-wrap: wrap;
 }
+
 .createMapp_card{
     display: flex;
+    flex-wrap: wrap;
 }
 .cardwrapp{
     margin: 45px 10px;
@@ -178,6 +181,7 @@ body{
     display: flex;
     gap: 121px;
     margin-bottom: 90px;
+    flex-wrap: wrap;
 }
 .wrapper_aboutus-left{
     margin-top: 52px;
@@ -199,14 +203,16 @@ body{
 }
 .wrapper_aboutus-right{
     border-radius: 30px;
+}
+.about_us-img{
     max-width: 500px;
-    height: 400px;
+    max-height: 400px;
 }
 .wrapper_aboutus-bottom{
     display: flex;
     gap: 100px;
     padding: 70px 0;
-
+    flex-wrap: wrap;
 }
 .aboutus_bottom-img{
     max-width: 30px;
