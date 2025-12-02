@@ -395,3 +395,47 @@ body{
     line-height: 158%;
     color: #808080;
 }
+/*footer*/
+.footer{
+    background: #f6f6f6;
+    padding-top: 70px;
+}
+.footer_wrapper{
+    display: flex;
+    gap: 40px;
+    margin-bottom: 70px;
+    justify-content: center;
+}
+.footer_wrap{
+    max-width: 245px;
+}
+.footer_title{
+    font-weight: 600;
+    font-size: 18px;
+    color: #000;
+}
+.links_item{
+    display: inline-block;
+}
+.links_link{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 158%;
+    color: #808080;
+    margin-top: 30px;
+}
+.contacs_img{
+    margin-right: 15px;
+}
+.cooperite{
+    max-height: 95px;
+    padding: 30px 0;
+    text-align: center;
+}
+.cooperite_text{
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 158%;
+    text-align: center;
+    color: #808080;
+}
